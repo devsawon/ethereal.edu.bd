@@ -40,6 +40,11 @@ body{
     color: gold;
 }
 
+.about_ethereal{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 @media(max-width:520px){
     .bottom_footer{
         text-align: center;
