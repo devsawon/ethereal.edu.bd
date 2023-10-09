@@ -68,6 +68,27 @@ nav{
     font-weight: bold;
 }
 
+#admission_btn{
+    color: var(--color-1);
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#admission_btn:hover{
+    background-color: var(--color-1);
+    color: #fff;
+    transform: scale(1.2);
+}
+
+.footer_head{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
 @media(max-width:520px){
     .bottom_footer{
         text-align: center;
