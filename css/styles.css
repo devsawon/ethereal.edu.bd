@@ -30,6 +30,50 @@ nav{
     background: var(--color-1);
     margin-bottom: 3%;
 }
+
+.section-2{
+    background: #f5822021;
+}
+
+#card i{
+    color: #fff;
+    font-size: 50px;
+}
+
+#card_container{
+    padding: 0;
+    margin: 0;
+}
+
+#card {
+    background: var(--color-1);
+    border-radius: 5px;
+    margin: 0px 5px 5px 0px;
+}
+
+#card:hover{
+    transform: translateY(-5%);
+}
+
+#card .col-4 {
+    padding: 30px 20px;
+}
+
+#card .col-8 {
+    padding: 30px 5px 0px 20px;
+}
+
+#card h5{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#card p{
+    color: #cecece;
+    font-size: 12px;
+}
+
 .upper-footer{
     background: rgb(129, 129, 129);
     border-top: 3px solid var(--color-1);
@@ -73,14 +117,15 @@ nav{
     color: var(--color-1);
     background-color: #fff;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px 20px 10px 20px;
     font-weight: bold;
+    display: inline;
 }
 
 #admission_btn:hover{
     background-color: var(--color-1);
     color: #fff;
-    transform: scale(1.2);
+    border: 1px solid #fff;
 }
 
 .footer_head{
@@ -94,6 +139,20 @@ nav{
     color: #cecece;
     font-size: 13px;
     line-height: 5px;
+}
+
+.footer_icons a{
+    color: var(--color-1);
+    display: inline;
+    font-size: 15px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 5px;
+}
+
+.footer_icons a:hover{
+    background: var(--color-1);
+    color: #fff;
 }
 
 @media(max-width:520px){
