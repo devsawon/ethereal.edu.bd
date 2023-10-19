@@ -17,6 +17,7 @@ body{
 
 nav{
     border-bottom: 1px solid var(--color-1);
+    font-size: 15px;
 }
 
 #carousel_img {
@@ -72,7 +73,7 @@ nav{
     color: var(--color-1);
     background-color: #fff;
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
 }
 
@@ -87,6 +88,12 @@ nav{
     font-size: 15px;
     margin-top: 2%;
     font-weight: bold;
+}
+
+#address{
+    color: #cecece;
+    font-size: 13px;
+    line-height: 5px;
 }
 
 @media(max-width:520px){
