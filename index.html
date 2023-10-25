@@ -68,13 +68,13 @@
 
     <div class="container">
       <div class="row pt-5 mt-5">
-        <div class="col-md-8">
+        <div class="col-md-8 py-3">
           <h1 class="">WHY ETHEREAL?</h1>
           <div class="" id="text_underline"></div>
-          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eveniet magni, aperiam quam deserunt praesentium, voluptatum totam ipsam illum quas autem ipsa ab at modi consectetur quia laudantium doloremque obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci quibusdam, cupiditate similique quo est dolore accusamus ipsam dicta architecto facilis itaque totam modi natus minima ea unde consequuntur praesentium.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt non, quis sint quae ad commodi hic minima sunt quo error animi perferendis eligendi recusandae atque! Nihil amet ut quae corrupti iure corporis similique dolore explicabo cum sunt, consequuntur quaerat rem dolores assumenda dolorem nesciunt itaque ratione? Dolore soluta in deleniti, asperiores nemo odit atque, inventore cum vitae molestiae est ea officia, repellendus eum nesciunt qui magni? Iusto minima fugit placeat, pariatur repellendus perspiciatis quas quod ratione sapiente at? Aliquam quaerat velit molestiae, ad aut mollitia. Cumque dolor ut aliquam, quis velit, recusandae voluptate minus quia laudantium quasi quas obcaecati fuga maiores, magni qui numquam id asperiores.</p>
+          <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eveniet magni, aperiam quam deserunt praesentium, voluptatum totam ipsam illum quas autem ipsa ab at modi consectetur quia laudantium doloremque obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci quibusdam, cupiditate similique quo est dolore accusamus ipsam dicta architecto facilis itaque totam modi natus minima ea unde consequuntur praesentium.</p>
+          <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt non, quis sint quae ad commodi hic minima sunt quo error animi perferendis eligendi recusandae atque! Nihil amet ut quae corrupti iure corporis similique dolore explicabo cum sunt, consequuntur quaerat rem dolores assumenda dolorem nesciunt itaque ratione? Dolore soluta in deleniti, asperiores nemo odit atque, inventore cum vitae molestiae est ea officia, repellendus eum nesciunt qui magni? Iusto minima fugit placeat, pariatur repellendus perspiciatis quas quod ratione sapiente at? Aliquam quaerat velit molestiae, ad aut mollitia. Cumque dolor ut aliquam, quis velit, recusandae voluptate minus quia laudantium quasi quas obcaecati fuga maiores, magni qui numquam id asperiores.</p>
         </div>
-        <div class="col-md-4 px-5">
+        <div class="col-md-4 p-5">
           <img class="img-fluid mt-3" src="img/president_1673075854_2023-01-07.jpg" alt="">
         </div>
       </div>
@@ -195,10 +195,64 @@
           <div class="col-3"><img class="img img-fluid" src="img/blog1.jpg" alt=""></div>
           <div class="col-9"><a class="blog-text" href="">INTERNATIONAL “SCHOOL OF LIFE” IN THE HEART OF FEMI!</a></div>
         </div>
+        <div class="row pb-2">
+          <div class="col-3"><img class="img img-fluid" src="img/blog2.jpg" alt=""></div>
+          <div class="col-9"><a class="blog-text" href="">INTERNATIONAL “SCHOOL OF LIFE” IN THE HEART OF FEMI!</a></div>
+      </div>
+      <div class="row pb-2">
+        <div class="col-3"><img class="img img-fluid" src="img/blog3.jpg" alt=""></div>
+        <div class="col-9"><a class="blog-text" href="">INTERNATIONAL “SCHOOL OF LIFE” IN THE HEART OF FEMI!</a></div>
+    </div>
+    <div class="row pb-2">
+      <div class="col-3"><img class="img img-fluid" src="img/blog1.jpg" alt=""></div>
+      <div class="col-9"><a class="blog-text" href="">INTERNATIONAL “SCHOOL OF LIFE” IN THE HEART OF FEMI!</a></div>
+    </div>
           </div>
           <div class="col-md-6">
-            <h1 class="">ADMISSION QUERY</h1>
+            <h1 class="admisson_head">ADMISSION QUERY</h1>
             <div class="" id="text_underline"></div>
+            <div class="row">
+              <form action="" method="POST">
+                <fieldset>
+                  <div class="mb-3">
+                    <label class="form-label">Name*</label>
+                    <input type="text" class="form-control" placeholder="Write Your Name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Email*</label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email Address" required>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Phone*</label>
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1">+880</span>
+                      <input type="tel" class="form-control" placeholder="Enter Your Phone Number" aria-describedby="basic-addon1" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="disabledSelect" class="form-label">Select Grade*</label>
+                    <select id="disabledSelect" class="form-select" required>
+                      <option value="none" selected disabled hidden>Select an Option</option>
+                      <option value="">Nursery</option>
+                      <option value="">Lower KG</option>
+                      <option value="">Upper KG</option>
+                      <option value="">Grade One</option>
+                      <option value="">Grade Two</option>
+                      <option value="">Grade Three</option>
+                      <option value="">Grade Four</option>
+                      <option value="">Grade Five</option>
+                      <option value="">Grade Six</option>
+                      <option value="">Grade Seven</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Message*</label>
+                    <textarea class="form-control" name="" id="" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -248,8 +302,9 @@
             </div>
             <div class="col-md-2">
               <h5 class="footer_head mt-3">Follow Us</h5>
+              <p id="follow_text">You can easily find us on modern social medias also.</p>
               <div class="footer_icons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/etherealschoolbd/"><i class="fa-brands fa-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-youtube"></i></a>
                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>

@@ -122,6 +122,10 @@ nav{
     display: inline;
 }
 
+#para{ 
+    text-align: justify;
+}
+
 #admission_btn:hover{
     background-color: var(--color-1);
     color: #fff;
@@ -141,6 +145,12 @@ nav{
     font-size: 15px;
     margin-top: 2%;
     font-weight: bold;
+}
+
+#follow_text{
+    color: #cecece;
+    font-size: 13px;
+    text-align: justify;
 }
 
 #address{
@@ -169,5 +179,9 @@ nav{
     }
     #dev_text{
         text-align: center;
+    }
+
+    .admisson_head{
+        margin-top: 30px;
     }
 }
