@@ -128,6 +128,14 @@ nav{
     border: 1px solid #fff;
 }
 
+.blog-text{
+    font-size: 13px;
+}
+
+.blog-text:hover{
+    color: var(--color-1);
+}
+
 .footer_head{
     color: #fff;
     font-size: 15px;
@@ -156,7 +164,7 @@ nav{
 }
 
 @media(max-width:520px){
-    .bottom_footer{
+    .bottom_footer, .upper-footer{
         text-align: center;
     }
     #dev_text{
