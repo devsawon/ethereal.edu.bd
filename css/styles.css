@@ -124,6 +124,25 @@ nav{
 
 #para{ 
     text-align: justify;
+    color: var(--color-1);
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.title_heading{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub-title{
+    font-size: 12px;
+    color: var(--color-1);
+    font-weight: bold;
+}
+
+#President-img{
+    border-radius: 5px;
 }
 
 #admission_btn:hover{
@@ -178,6 +197,18 @@ nav{
     background: var(--color-1);
     color: #fff;
 }
+
+/* About page start */
+.about-section{
+    background: var(--color-1);
+    color: #fff;
+}
+
+.about-section h1{
+    font-weight: bold;
+}
+
+/* About page end */
 
 @media(max-width:520px){
     .bottom_footer, .upper-footer{
