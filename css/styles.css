@@ -168,7 +168,7 @@ nav{
     padding: 5px;
 }
 
-#form_row{
+#form_row, #signup_form{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5);
     padding: 20px;
     border-radius: 10px;
