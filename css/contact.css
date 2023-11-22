@@ -1,0 +1,34 @@
+.img_banner{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.overlay{
+    top: 120px;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    opacity: 1;
+}
+
+.overlay:hover{
+    opacity: 0;
+}
+
+@media(max-width:520px){
+    .bottom_footer, .upper-footer{
+        text-align: center;
+    }
+    #dev_text{
+        text-align: center;
+    }
+
+    .admisson_head{
+        margin-top: 30px;
+    }
+}
