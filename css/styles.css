@@ -88,10 +88,17 @@ nav{
     text-align: end;
 }
 
-#dev_text a{
-    font-weight: bold;
+#dev_text a {
+    font-weight: 400;
     font-style: italic;
     color: gold;
+    text-decoration: none;
+}
+
+#dev_text a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+    font-weight: bold;
 }
 
 .about_ethereal{
