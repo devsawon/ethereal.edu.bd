@@ -22,6 +22,7 @@ nav{
 
 #carousel_img {
     height: 80vh;
+    object-fit: cover;
 }
 
 #text_underline{
