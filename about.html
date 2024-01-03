@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 sticky-top">
@@ -21,8 +22,14 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">HOME</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT ETHEREAL</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">ABOUT ETHEREAL</a>
+              <a class="dropdown-item" href="mission.html">MISSION VISION</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="activity.html">ACTIVITIES</a>
+            </div>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="academic.html">ACADEMIC</a>
@@ -47,31 +54,45 @@
     </div>
   </nav>
 
-  <section class="about-section">
+  <section class="about-section py-5">
       <div class="contain text-center">
           <h1 class="py-4">ABOUT ETHEREAL</h1>
       </div>
   </section>
 
-    <section>
+    <section class="mt-5 pt-5">
         <div class="container"> 
             <div class="row">
                 <div class="col-md-6">
-
+                  <img class="img img-fluid mt-sm-5 mt-0" id="about-img" src="img/ethereal.jpg" alt="">
                 </div>
-                <div class="col-md-6">
-
+                <div class="col-md-6 mt-5 mt-sm-0">
+                  <h2 class="">UNIQUE FEATURES</h2>
+                  <div class="" id="text_underline"></div>
+                  <p id="para">ETHEREAL is the first English Medium School in Feni following
+                    Cambridge Curriculum with Islamic education. We are committed to
+                    providing state-of-the-art educational facilities, a qualified teachers
+                    team and a conducive learning environment for learners.
+                    <br><br>
+                    We want to raise curious, knowledgeable, and caring young people who are prepared to face the challenges of our modern-day &quot;global village.&quot; They will aspire to be responsible citizens who embrace and respect people from different cultures and walks of life and make meaningful contributions to society.
+                    <br><br>
+                    We have a team of qualified and experienced teachers who will help our students reach their full physical, social, spiritual, and moral potential. Our students will be taught moral values and various skills that will enable them to face life&#39;s dynamic challenges and opportunities with care, confidence, and self-discipline.
+                    <br><br>
+                    To get our students to their desired destination, we set up a fully equipped, air-conditioned campus, science lab with available equipment, computer lab, and multimedia classroom.
+                  </p>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-            <div class="upper-footer mt-5">
+            <div class="upper-footer mt-5 pb-5 pb-sm-0">
             <div class="container"> 
-                <div class="row py-4">
-                <div class="col-md-3"><img class="img-fluid" src="img/logo.png" alt=""></div>
-                <div class="col-md-2 mt-2">
+                <div class="row pt-4">
+                <div class="col-md-3">
+                  <img class="img img-fluid" src="img/Png-white.png" alt="">
+                </div>
+                <div class="col-md-2 mt-3">
                     <div >
                     <h5 class="about_ethereal">About Ethereal</h5>
                     <a href="#">Mission</a>
@@ -83,7 +104,7 @@
                     <a href="#">Curriculum Overview</a>
                     </div>
                 </div>
-                <div class="col-md-2 mt-2" id="upper-footer-col-3">
+                <div class="col-md-2 mt-3" id="upper-footer-col-3">
                     <a href="#">Sports</a>
                     <a href="#">Performing Arts</a>
                     <a href="#">Special Program</a>
@@ -92,7 +113,7 @@
                     <a href="#"> News and Facts</a>
                     <a href="#">School Policies</a>
                 </div>
-                <div class="col-md-3 mt-2">
+                <div class="col-md-3 mt-3">
                     <a id="admission_btn" href="admision.html">Admission going on</a>
                     <h5 class="footer_head mt-3">Ethereal An English Medium School</h5>
                     <div class="row" id="address">
@@ -132,5 +153,6 @@
             </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

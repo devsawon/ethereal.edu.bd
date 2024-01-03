@@ -76,12 +76,16 @@ nav{
 }
 
 .upper-footer{
-    background: rgb(129, 129, 129);
-    border-top: 3px solid var(--color-1);
+    background: var(--color-1);
+    border-top: 3px solid rgb(129, 129, 129);
+}
+
+.upper-footer img {
+    width: 80%;
 }
 
 .bottom_footer{
-    background: var(--color-1);
+    background: rgb(129, 129, 129);
     color: #fff;
 }
 
@@ -98,7 +102,7 @@ nav{
 
 #dev_text a:hover {
     text-decoration: underline;
-    color: greenyellow;
+    color: rgb(47, 255, 47);
     font-weight: bold;
 }
 
@@ -208,18 +212,6 @@ nav{
     color: #fff;
     border: 1px solid #fff;
 }
-
-/* About page start */
-.about-section{
-    background: var(--color-1);
-    color: #fff;
-}
-
-.about-section h1{
-    font-weight: bold;
-}
-
-/* About page end */
 
 @media(max-width:520px){
     .bottom_footer, .upper-footer{
