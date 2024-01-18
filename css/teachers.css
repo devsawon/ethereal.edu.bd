@@ -43,6 +43,10 @@
     color: #fff;
 }
 
+.card:hover #title{
+    color: #fff;
+}
+
 .card:hover .btn{
     background: #fff;
     color: #000;
